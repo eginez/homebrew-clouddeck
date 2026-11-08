@@ -1,8 +1,8 @@
 cask "clouddeck" do
   arch arm: "aarch64"
 
-  version "0.2.1"
-  sha256 "bc831b4bbaf44669580b24d0c7a0cf6692f1fd8aea2affa423a81e840ec8183f"
+  version "0.2.2"
+  sha256 "76bcee6954ed93b679bc62f77abd509435bed1c7a1993d02acc8ac5377997949"
 
   url "https://github.com/eginez/clouddeck/releases/download/v#{version}/CloudDeck-#{version}-macos-#{arch}.tar.gz"
   name "CloudDeck"

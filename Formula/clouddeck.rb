@@ -1,8 +1,8 @@
 class Clouddeck < Formula
   desc "Read only browser for your EC2 instances"
   homepage "https://github.com/eginez/clouddeck"
-  url "https://github.com/eginez/clouddeck/releases/download/v0.2.1/CloudDeck-0.2.1-linux-x86_64.tar.gz"
-  sha256 "087af8aff901bea748e7eceb9419adcdafb7ea050324a35d43d5fb98b52e1625"
+  url "https://github.com/eginez/clouddeck/releases/download/v0.2.2/CloudDeck-0.2.2-linux-x86_64.tar.gz"
+  sha256 "f0ae2bbf137ff20af0bdc24c42acd952dac7677203730f41ca34023b01b7d881"
   license any_of: ["MIT", "Apache-2.0"]
 
   # Linux only. On macOS install the cask:
