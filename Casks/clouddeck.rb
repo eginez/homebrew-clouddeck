@@ -1,13 +1,13 @@
 cask "clouddeck" do
   arch arm: "aarch64"
 
-  version "0.2.2"
-  sha256 "76bcee6954ed93b679bc62f77abd509435bed1c7a1993d02acc8ac5377997949"
+  version "0.3.0"
+  sha256 "446d4f004609b570626b907bdeda4db9097860fed8ca0cd2207445473cad8786"
 
-  url "https://github.com/eginez/clouddeck/releases/download/v#{version}/CloudDeck-#{version}-macos-#{arch}.tar.gz"
+  url "https://github.com/eginez/clouddeck-releases/releases/download/v#{version}/CloudDeck-#{version}-macos-#{arch}.tar.gz"
   name "CloudDeck"
   desc "Read only browser for your EC2 instances"
-  homepage "https://github.com/eginez/clouddeck"
+  homepage "https://clouddeck.dev"
 
   livecheck do
     url :url
